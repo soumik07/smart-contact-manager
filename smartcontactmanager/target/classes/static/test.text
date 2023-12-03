@@ -1,0 +1,6 @@
+<div class="container" th:if="${session.messege}">
+				<div class="alert alert-success text-center" role="alert">
+  					<span th:text="${session.messege.type}"></span>
+				</div>
+			</div>
+		

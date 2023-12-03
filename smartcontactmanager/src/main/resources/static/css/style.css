@@ -1,0 +1,90 @@
+body{
+	background-color: #e2e2e2;
+}
+.bg-primar{
+	background-color: #009688;
+}
+.banner{
+	width: 100%;
+	height: 91.5vh;
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("../img/SCMimg.jpg");
+	background-size: auto;
+	color:azure;
+	}
+.my-card{
+	padding: 20px 20px 7px 20px;
+	background: #ffffff;
+}
+#login .container #login-row #login-column #login-box {
+  margin-top: 90px;
+  max-width: 600px;
+  height: 420px;
+  border: 1px solid #9C9C9C;
+  background-color: white;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+
+
+/*SIDEBAR style*/
+
+@media screen and (max-width: 600px){                                    /*@media screen and (max-width: 600px){a space after and}*/
+	.sidebar{
+		display:none;
+		width:80%!important;
+		background:floralwhite;
+		padding-top:20px;
+		height:100vh;
+		position:fixed;
+	}
+	.content{
+		margin-left: 0%!important;
+	}
+}
+.sidebar{
+	
+	width:20%;
+	background:floralwhite;
+	height:100%;
+	position:fixed;
+	transition: width 0.5s ease-in-out;
+	z-index:9999999999999999999999;
+}
+.sidebar a{
+	display:block;
+	padding:10px;
+	text-decoration: none;
+	color:darkslategrey;
+	
+	padding:15px 30px;
+}
+.sidebar .divider{
+	height:1px;
+	width:100%;
+	background:#e2e2e2;
+	margin-top:20px;
+} 
+.sidebar a:hover{
+	background:#e2e2e2;
+}
+
+.content{
+	margin-left: 22%;
+}
+
+.sidebar .crossbtn{
+	
+	margin-left:85%;
+	font-size: 36px;
+	cursor:pointer;
+	display:block;
+}
+
+.active{
+	background:#009688;
+	color:white!important;
+}
